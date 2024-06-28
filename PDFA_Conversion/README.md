@@ -8,6 +8,9 @@ This repository contains a Streamlit application for converting PDF files to var
   - [Overview](#overview)
   - [Requirements](#requirements)
   - [Installation](#installation)
+    - [Windows](#windows)
+    - [macOS](#macos)
+    - [Linux/Ubuntu](#linuxubuntu)
   - [Usage](#usage)
   - [Notes](#notes)
   - [Troubleshooting](#troubleshooting)
@@ -26,30 +29,90 @@ The application provides a user-friendly interface to upload a PDF file, select 
 
 ## Installation
 
-1. Clone the repository:
+### Windows
+
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/msnabiel/General.git
    cd General/PDFA_Conversion
    ```
 
-2. Install dependencies:
+2. **Install Python**:
+   - Download and install Python from [python.org](https://www.python.org/downloads/windows/).
+   - Ensure `python` and `pip` are added to your PATH.
+
+3. **Install dependencies**:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Install Ghostscript:
+4. **Install Ghostscript**:
+   - Download the installer from [Ghostscript](https://www.ghostscript.com/download/gsdnld.html) and follow the installation instructions.
+   - Ensure the `gs` command is added to your PATH.
 
-   - **For Ubuntu/Debian**:
-     ```bash
-     sudo apt-get install ghostscript
-     ```
+### macOS
 
-   - **For macOS**:
-     ```bash
-     brew install ghostscript
-     ```
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/msnabiel/General.git
+   cd General/PDFA_Conversion
+   ```
+
+2. **Install Homebrew** (if not already installed):
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+3. **Install Python**:
+   ```bash
+   brew install python
+   ```
+
+4. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Install Ghostscript**:
+   ```bash
+   brew install ghostscript
+   ```
+
+### Linux/Ubuntu
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/msnabiel/General.git
+   cd General/PDFA_Conversion
+   ```
+
+2. **Update package lists**:
+
+   ```bash
+   sudo apt-get update
+   ```
+
+3. **Install Python and pip**:
+
+   ```bash
+   sudo apt-get install python3 python3-pip
+   ```
+
+4. **Install dependencies**:
+
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+5. **Install Ghostscript**:
+
+   ```bash
+   sudo apt-get install ghostscript
+   ```
 
 ## Usage
 
@@ -83,7 +146,6 @@ The application provides a user-friendly interface to upload a PDF file, select 
 
 - [Syed Nabiel Hasaan M.](https://github.com/msnabiel)
 - Contact - [msyednabiel@gmail.com](mailto:msyednabiel@gmail.com)
-
 
 ## License
 
