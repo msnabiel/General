@@ -56,7 +56,7 @@ The application provides a user-friendly interface to upload a PDF file, select 
 1. Run the Streamlit application:
 
    ```bash
-   streamlit run pdfa_converter.py
+   streamlit run PDFA_SUB_TYPES.py
    ```
 
 2. Open your web browser and navigate to `http://localhost:8501`.
@@ -82,6 +82,8 @@ The application provides a user-friendly interface to upload a PDF file, select 
 ## Contributors
 
 - [Syed Nabiel Hasaan M.](https://github.com/msnabiel)
+- Contact - [Mail](mailto:msyednabiel@gmail.com)
+
 
 ## License
 
