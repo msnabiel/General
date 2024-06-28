@@ -82,7 +82,7 @@ The application provides a user-friendly interface to upload a PDF file, select 
 ## Contributors
 
 - [Syed Nabiel Hasaan M.](https://github.com/msnabiel)
-- Contact - [Mail](mailto:msyednabiel@gmail.com)
+- Contact - [msyednabiel@gmail.com](mailto:msyednabiel@gmail.com)
 
 
 ## License
